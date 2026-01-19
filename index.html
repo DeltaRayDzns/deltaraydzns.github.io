@@ -1,22 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Hetmaanlicht</title>
-</head>
-<body>
-        <nav class="navbar navbar-expand-md fixed-top">
-            <h1>Hetmannlicht</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hetmaanlicht</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+
+        <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#"><img src="HetmaanlichtConcept.png" alt="">   Hetmaanlicht</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            </ul>
+        </div>
         </nav>
-    
+
+        <header class="page-header header container-fluid"> 
+            <div class="overlay"></div> 
+            <div class="description">
+                <h1>Welkom bij Hetmaanlicht!</h1>
+                <p>Wij zijn een stichting die zich inzet om licht en hoop te brengen waar het het hardst nodig is. Met projecten, steun en betrokkenheid maken wij samen een verschil voor mensen in kwetsbare situaties. Samen zorgen we voor een toekomst vol warmte, zorg en nieuwe mogelijkheden.</p>
+                <a href="#information" class="btn btn-secondary btn">Tell Me More!</a>            
+            </div> 
+        </header>       
+
+        <div class="container features">
+            <div class="row">
+              <div id="information" class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Hulpverlening</h3>
+                <img src="https://media.istockphoto.com/id/1477731413/photo/volunteers-hands-stacking-in-a-circle.jpg?s=612x612&w=0&k=20&c=z2nN0tsYAq2hgtgDyBKFROMTlwAAst9KNBv1pIS3Mp4=" class="img-fluid">
+                <p>Bij Hetmaanlicht geloven we dat niemand er alleen voor hoeft te staan. Met onze hulpverlening bieden wij ondersteuning, begeleiding en een luisterend oor aan mensen in kwetsbare situaties. Samen werken we aan hoop, herstel en een betere toekomst.</p>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Maatschappelijke Dienstverlening</h3>
+                <img src="https://teambuildinghub.com/wp-content/uploads/2022/07/employees-volunteering-outside.webp" class="img-fluid">
+                <p>Hetmaanlicht zet zich in om mensen en gemeenschappen te versterken door middel van maatschappelijke dienstverlening. Wij bieden ondersteuning en begeleiding aan wie dat nodig heeft, met aandacht voor zorg, welzijn en verbondenheid. Samen bouwen we aan een samenleving waarin iedereen de kans krijgt om mee te doen en zich gesteund te voelen.</p>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                 <h3 class="feature-title">Get in Touch!</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name" name="">
+                    </div>
+          
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email Address" name="email">
+                    </div>
+          
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">         
+              </div>
+            </div>
+          </div>
+
+          <footer class="page-footer">
+            <div class="container">
+              <div class="row" >
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                <p>Bij Hetmaanlicht geloven we dat kleine stappen een groot verschil kunnen maken. Onze projecten zijn gericht op het ondersteunen van mensen in hun dagelijks leven en het bieden van kansen om sterker en zelfstandiger te worden.</p>
+                <p>Daarnaast streven we ernaar om samenwerkingen aan te gaan met lokale partners en vrijwilligers. Op die manier kunnen we onze impact vergroten en meer gemeenschappen bereiken die onze steun goed kunnen gebruiken.</p>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                <p>Keizersgracht 241, Amsterdam, North Holland
+                <br/>info@hetmaanlicht.com
+                <br/>+31 6 1234 5678
+                <br/>+31 20 987 6543</p>
+              </div>
+            </div>
+          
+            <div class="footer-copyright text-center">© 2077 Copyright: Hetmaanlicht.com</div>
+          
+          </footer>
 
 
-    <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+        <script src="script.js"></script>
+        
+    </body>
 </html>
