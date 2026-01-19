@@ -15,15 +15,11 @@ html {
 
 /*--- navigation bar ---*/
 
- 
-
 .navbar {
 
   background:#0e1523;
 
 }
-
- 
 
 .nav-link,
 
@@ -35,15 +31,11 @@ html {
 
 }
 
- 
-
 .nav-link {
 
   margin-right: 1em !important;
 
 }
-
- 
 
 .nav-link:hover {
 
@@ -51,7 +43,6 @@ html {
 
 }
 
- 
 /* align nav items to the right */
 .navbar-collapse {
 
@@ -70,7 +61,6 @@ html {
   position: relative;
 
 }
-
 
 /* logo alignment*/
 .navbar-brand img {
@@ -255,8 +245,6 @@ html {
 /* mobile parameters */
 @media (max-width: 575.98px) {
 
- 
-
   .description {
 
     left: 0;
@@ -273,23 +261,17 @@ html {
 
   }
 
- 
-
   .description h1 {
 
     font-size: 2em;
 
   }
 
- 
-
   .description p {
 
     font-size: 1.2rem;
 
   }
-
- 
 
   .features {
 
