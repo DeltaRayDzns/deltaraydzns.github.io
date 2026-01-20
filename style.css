@@ -32,6 +32,7 @@ html {
 .nav-link {
 
   margin-right: 1em !important;
+  color: #ffffff;
 
 }
 
@@ -240,7 +241,7 @@ html {
 }
 
 
-/* mobile parameters */
+
 @media (max-width: 575.98px) {
 
   .description {
