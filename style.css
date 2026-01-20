@@ -29,8 +29,11 @@ html {
 
 }
 
-.nav-link {
+.navbar-nav, .nav-item, .nav-link {
   color: #ffffff;
+}
+
+.nav-link {
   margin-right: 1em !important;
   
 }
