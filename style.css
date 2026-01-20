@@ -8,12 +8,10 @@ body {
 
 }
 
-/* makes it smooth scrolling when using anchors */
 html {
   scroll-behavior: smooth;
 }
 
-/*--- navigation bar ---*/
 
 .navbar {
 
@@ -43,7 +41,7 @@ html {
 
 }
 
-/* align nav items to the right */
+
 .navbar-collapse {
 
   justify-content: flex-end;
@@ -62,7 +60,7 @@ html {
 
 }
 
-/* logo alignment*/
+
 .LogoImg {
 
   height: 30px;
@@ -71,7 +69,7 @@ html {
 
 }
 
-/* semi-transparent dark overlay */
+
 .overlay {
 
   position: absolute;
